@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Script&family=Roboto&display=swap');
+:root{
+    --title-font:'Luxurious Script', cursive ;
+    --text-font: ;
+    --main-background: #f0d9e3 ;
+}
+*{
+    background-color: var(--main-background);
+    padding: 0.5vh;
+}
+header h1,
+header h2{
+    background-color: white;
+    margin: 0;
+    border-radius: 1.5vh;
+}
+.title{
+    font-family: 'Roboto', sans-serif;
+}
+.addingText{
+    margin: 0;
+    background-color: white;
+    font-family: var(--title-font);
+}
+.firstIntro{
+    margin-top: 2.5vh;
+    padding: 3.5vh;
+}
+.ourArtists{
+    margin-top: 2.5vh;
+    padding: 3.5vh;
+    
+}
+.catalog h2{
+    background-color: white;
+    border-radius: 1.5vh;
+}
+.name,
+.description{
+    margin: 3vh;    
+}
+img{
+    border-radius: 5%;    
+}
+.row{
+    font-size: 20px;
+}
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--main-background);
+}
+.contacto h2{
+    background-color: white;
+    border-radius: 2.5vh;
+    
+}
+ul{
+    list-style: none;
+}
+ul li{
+    text-align: center;
+}
+a{
+    text-align: center;
+    background-color: white;
+    border-radius: 1.5vh;
+    cursor: pointer;
+}
+a:hover{
+    color: rosybrown;
+}
