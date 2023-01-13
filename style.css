@@ -79,3 +79,7 @@ a{
 a:hover{
     color: rosybrown;
 }
+
+@media screen and (max-widht: 900px ) {
+    
+}
