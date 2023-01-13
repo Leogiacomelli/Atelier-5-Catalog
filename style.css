@@ -17,6 +17,13 @@ header h2{
 .title{
     font-family: 'Roboto', sans-serif;
 }
+
+
+.my_image{
+    width: 80%;
+    height: 80% ;
+}
+
 .addingText{
     margin: 0;
     background-color: white;
