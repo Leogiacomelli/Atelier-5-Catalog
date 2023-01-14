@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Luxurious+Script&family=Roboto&display=swap');
 :root{
-    --title-font:'Luxurious Script', cursive ;
+    --title-font:  ;
     --text-font: ;
     --main-background: #f0d9e3 ;
 }
@@ -15,7 +15,8 @@ header h2{
     border-radius: 1.5vh;
 }
 .title{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Helvetica', sans-serif;
+    
 }
 
 
@@ -27,7 +28,8 @@ header h2{
 .addingText{
     margin: 0;
     background-color: white;
-    font-family: var(--title-font);
+    font-family: Helvetica, sans-serif ;
+    font-size: 50%;
 }
 .firstIntro{
     margin-top: 2.5vh;
